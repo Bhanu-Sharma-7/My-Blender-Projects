@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Showroom — Blender Projects</title>
+  <link rel="icon" type="image/png" href="./public/logo.png" />
+  <meta name="description" content="A curated 3D model showcase built with Blender. Browse, preview, and download high-quality 3D assets." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="project-container">
-        
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <img src="./public/logo.png" alt="3D Showroom Logo" class="logo-img" />
+        <span class="logo-text">3D <strong>Showroom</strong></span>
+      </div>
+      <nav class="nav-links">
+        <span class="nav-badge" id="model-count-badge">⬡ Loading...</span>
+      </nav>
     </div>
-    <script src="script.js"></script>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-tag">Blender 3D Portfolio</p>
+      <h1 class="hero-title">My 3D <span class="accent">Projects</span></h1>
+      <p class="hero-subtitle">Interactive 3D models you can rotate, zoom, and download — rendered with care in Blender.</p>
+    </div>
+  </section>
+
+  <main id="projects">
+    <div class="section-label">
+      <span>— All Models</span>
+    </div>
+    <div id="project-container"></div>
+    <div id="loading" class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading models...</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 3D Showroom — All models are original artworks.</p>
+      <div class="footer-stats">
+        <span class="footer-stat"><span class="accent" id="footer-model-count">—</span> Models</span>
+        <span class="footer-divider">·</span>
+        <span class="footer-stat">Interactive 3D</span>
+        <span class="footer-divider">·</span>
+        <span class="footer-stat">Blender</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

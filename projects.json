@@ -1,7 +1,8 @@
 [
   {
     "title": "Part 1 Model",
-    "src": "./models/Part-1.glb",
+    "src": "./public/models/Part-1.glb",
+    "description": "A high-quality 3D model crafted in Blender. Rotate and zoom to explore every detail.",
     "downloadUrl": "https://drive.google.com/uc?export=download&id=1-OcqU9CaQct6ZAoAb-X6zu1h2MdvrB3Y"
   }
 ]
