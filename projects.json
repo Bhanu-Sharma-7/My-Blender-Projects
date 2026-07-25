@@ -1,8 +1,14 @@
 [
   {
-    "title": "Part 1 Model",
-    "src": "./public/models/Part-1.glb",
-    "description": "A high-quality 3D model crafted in Blender. Rotate and zoom to explore every detail.",
-    "downloadUrl": "https://drive.google.com/uc?export=download&id=1-OcqU9CaQct6ZAoAb-X6zu1h2MdvrB3Y"
+    "title": "Sci-Fi Crate",
+    "src": "./public/models/1.glb",
+    "description": "A detailed Sci-Fi military crate modeled in Blender, featuring reinforced latches, glowing panels, and a rugged tactical design. Rotate and zoom to explore every detail.",
+    "downloadUrl": "https://drive.google.com/file/d/1RFgXVpFGIecbr9TQ_Fgfwz7qbKTBTtMK/view?usp=sharing"
+  },
+  {
+    "title": "Cute Fox Character",
+    "src": "./public/models/2.glb",
+    "description": "An adorable chibi-style fox character modeled in Blender, with a smooth clay-like finish, expressive face, and a charming personality. Rotate and zoom to explore every detail.",
+    "downloadUrl": "https://drive.google.com/file/d/1t36zuMGeZBQtz_0DAAZFoaqorlMlmnpw/view?usp=sharing"
   }
 ]
