@@ -16,5 +16,11 @@
     "src": "./public/models/3.glb",
     "description": "An iconic Pokéball 3D model created in Blender, featuring smooth red and white glossy shells, a sleek center band, and a release button. Rotate and zoom to explore every detail.",
     "downloadUrl": "https://drive.google.com/file/d/17YjdD_0ny1hKsrESF7IBO4Q5J7K6A1Hr/view?usp=sharing"
+  },
+  {
+    "title": "Cute Robot Character",
+    "src": "./public/models/4.glb",
+    "description": "An adorable futuristic mini robot character modeled in Blender, featuring big side wheels, a glossy white body, and a glowing digital pixel screen face. Rotate and zoom to explore every detail.",
+    "downloadUrl": "https://drive.google.com/file/d/1522MTHOFwWrMWClLw0E/view?usp=sharing"
   }
 ]
